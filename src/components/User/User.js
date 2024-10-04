@@ -6,7 +6,7 @@ import "./User.css";
 const EditUser = () => {
   const [user, setUser] = useState({});
   const { id } = useParams();
-  const getUserApi = "http://localhost:3000/user";
+  const getUserApi = "https://66ff38382b9aac9c997e8fe8.mockapi.io/api/users";
 
   // useCallback을 사용하여 getUser 함수 정의
   const getUser = useCallback(() => {

@@ -10,7 +10,7 @@ const EditUser = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { id } = useParams();
   const navigate = useNavigate();
-  const getUserApi = "http://localhost:3000/user";
+  const getUserApi = "https://66ff38382b9aac9c997e8fe8.mockapi.io/api/users";
 
   // useCallback을 사용하여 함수 정의
   const getUser = useCallback(() => {

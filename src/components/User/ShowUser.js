@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Loader from "../Common/Loader";
 
 const ShowUser = () => {
-  const showUserApi = "http://localhost:3000/user";
+  const showUserApi = "https://66ff38382b9aac9c997e8fe8.mockapi.io/api/users";
 
   const [user, setUser] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
