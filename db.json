@@ -4,30 +4,40 @@
       "name": "John",
       "email": "john@example.com",
       "phone": "(555) 555-1234",
+      "relation": "friend",
+      "age": "15",
       "id": 1
     },
     {
       "name": "Mary",
       "email": "\tmary@example.com",
       "phone": "(555) 555-1234",
+      "relation": "mother",
+      "age": "54",
       "id": 2
     },
     {
       "name": "Dooley",
       "email": "july@example.com",
       "phone": "(555) 555-8521",
+      "relation": "friend",
+      "age": "18",
       "id": 3
     },
     {
       "name": "Moe",
       "email": "Moe@example.com",
       "phone": "(555) 555-7410",
+      "relation": "teacher",
+      "age": "34",
       "id": 4
     },
     {
       "name": "Doe",
       "email": "Doe@example.com",
       "phone": "(555) 555-7896",
+      "relation": "BestFriend",
+      "age": "15",
       "id": 5
     }
   ]

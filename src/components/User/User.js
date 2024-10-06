@@ -47,10 +47,18 @@ const EditUser = () => {
             <td>Phone</td>
             <td>{user.phone}</td>
           </tr>
+          <tr>
+            <td>Relation</td>
+            <td>{user.relation}</td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td>{user.age}</td>
+          </tr>
         </tbody>
       </table>
     </div>
   );
 };
 
-export default EditUser;
+export default EditUser;``

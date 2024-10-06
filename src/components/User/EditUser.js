@@ -111,6 +111,32 @@ const EditUser = () => {
             onChange={handleInput}
           />
         </div>
+        <div className="mb-3">
+          <label htmlFor="relation" className="form-label">
+            Relation
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="relation"
+            name="relation"
+            value={user.relation || ""}
+            onChange={handleInput}
+          />
+        </div>
+        <div className="mb-3">
+          <label htmlFor="age" className="form-label">
+            Age
+          </label>
+          <input
+            type="text"
+            className="form-control"
+            id="age"
+            name="age"
+            value={user.age || ""}
+            onChange={handleInput}
+          />
+        </div>
         <button type="submit" className="btn btn-primary submit-btn">
           EDIT
         </button>
