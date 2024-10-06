@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
           <Link to="/" className="navbar-brand" href="#">
-            <span className="navbar-text">React CRUD</span>
+            <span className="navbar-text">Friend List (React CRUD)</span>
           </Link>
           <button
             className="navbar-toggler"
@@ -26,12 +26,12 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="create-user">
-                  Create User
+                  Create Friend List
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="show-user">
-                  Show User
+                  Show Friend List
                 </Link>
               </li>
             </ul>

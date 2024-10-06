@@ -13,17 +13,17 @@
 }
 
 .form-control{
-    border-radius: 0px !important;
+    border-radius: 5px !important;
 }
 .form-label{
     font-weight: 600;
     font-size: 18px;
 }
 .submit-btn{
-    border-radius: 0px;
+    border-radius: 5px;
     width: 100%;
     margin-top: 15px;
-    background-color: #000;
+    background-color: #04AA6D;
     border: 0px !important;
 }
 .heading{
@@ -41,11 +41,18 @@
     padding: 3px;
     margin-right: 10px;
     background-color: rgb(234, 234, 234);
-    color: #000; 
+    color: #04AA6D; 
 }
 .fa-trash-o{
     color: rgb(255, 0, 0);
     border: 1px solid red;
     background-color: #ffffff;
-    
+}
+
+.bg-dark{
+    background-color: #04AA6D !important;
+}
+
+td:hover{
+    color: #04AA6D;
 }

@@ -1,4 +1,7 @@
 import React from "react";
+import friendImage_1 from './img/friend1.png';
+import friendImage_2 from './img/friend2.png';
+import friendImage_3 from './img/friend3.png';
 
 const Carasol = () => {
   return (
@@ -26,21 +29,21 @@ const Carasol = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src={'https://www.w3schools.com/bootstrap5/la.jpg'}
+              src={friendImage_1}
               alt="Los Angeles"
               className="d-block"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={'https://www.w3schools.com/bootstrap5/ny.jpg'}
+              src={friendImage_2}
               alt="Chicago"
               className="d-block"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={'https://www.w3schools.com/bootstrap5/chicago.jpg'}
+              src={friendImage_3}
               alt="New York"
               className="d-block"
             />
